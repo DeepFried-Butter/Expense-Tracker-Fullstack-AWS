@@ -1,0 +1,60 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: times new roman;
+  font-size: 18px;
+  padding: 10px;
+  margin: 3rem auto;
+  background-color: #d2b48c;
+  pointer-events: all;
+  width: 60rem;
+  max-width: 100%;
+}
+.form1 {
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: times new roman;
+  font-size: 18px;
+  padding: 10px;
+  margin: 3rem auto;
+  background-color: tan;
+  pointer-events: all;
+  padding-bottom: 0px;
+}
+
+#expensesDiv,
+#leaderboardDiv {
+  width: 30rem;
+}
+
+.bigDivs{
+  margin-top: -3rem !important;
+}
+
+#expenses {
+  text-align: start;
+}
+
+#expenses li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+#leaderboard {
+  text-align: start;
+}
+
+.deletebtn.delete {
+  font-size: 15px;
+  padding: 5px;
+  background: red;
+  border: 1px solid black;
+  border-radius: 5px;
+}

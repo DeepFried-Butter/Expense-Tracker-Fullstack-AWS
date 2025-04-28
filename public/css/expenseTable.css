@@ -1,0 +1,86 @@
+h5{
+    font-weight: bold !important;
+}
+
+.table-bordered {
+    border-collapse: collapse;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid black !important;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+    border-bottom-width: 2px;
+    background-color: seagreen;
+}
+
+#expensesTableDiv{
+    padding-top: 1.5rem;
+    height: 27rem;
+    overflow-y: scroll;
+}
+
+#expensesBody, td{
+    background-color: tan !important;
+}
+
+#downloadsDiv{
+    padding-top: 1.5rem;
+    height: 27rem;
+    overflow-y: scroll;
+}
+
+.downloadBtn{
+    border: none;
+    padding: 0px;
+    background-color: tan;
+    margin-top:-0.5rem;
+}
+
+#refreshBtn{
+    float:left;
+    margin-top:-2rem;
+    display: block;
+}
+
+#refreshDownloadsBtn{
+    float:right;
+    margin-top:-2.25rem;
+    margin-bottom: 0.85rem;
+}
+
+.downloadBtn img{
+    width:30px;
+    height:30px;
+    float:right;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    position:relative;
+  }
+  .pagination button {
+    padding: 2px 6px;
+    border-radius: 10px;
+    margin: 5px 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .active {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .expPagination button {
+    padding: 2px 6px;
+    border-radius: 10px;
+    margin: 5px 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
